@@ -244,7 +244,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to affiliates to the University of Turin, Department of Computer Science & Department of Clinical and Biological Science. If you are interested in attending this workshop, contact <a href='mailto:alessia.visconti@unito.it'>alessia.visconti@unito.it</a> for more information.
+    This workshop is open to students of the PhD program in Complex Systems for Quantitative Biomedicine, and affiliates to the University of Turin. If you are interested in attending this workshop, contact <a href='mailto:alessia.visconti@unito.it'>alessia.visconti@unito.it</a> for more information.
 </p>
 
 <hr/>
