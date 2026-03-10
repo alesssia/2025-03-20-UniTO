@@ -113,7 +113,7 @@ address.
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
+  <a href="https://www.openstreetmap.org/?mlat=45.040538&mlon=7.675793#map=19/45.040538/7.675793">OpenStreetMap</a>
   {% if page.what3words %}
     What3Words location:
     <a href="https://what3words.com/{{page.what3words}}">///{{page.what3words}}</a>.
