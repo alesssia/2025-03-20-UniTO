@@ -4,19 +4,19 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Turin"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "MBC, Via Nizza 52, Torino"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Aula Lenti, Corso Dogliotti 14, Torino (entrance from Corso Bramante 88)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "it"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45.049911"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "7.673932"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Mar 20-21, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Mar 16-17, 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 1:00 pm CET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2025-03-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2025-03-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2026-03-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2026-03-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Alessia Visconti"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Matteo Bracco", "Marco Vitturini"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Matteo Bracco"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["alessia.visconti@unito.it"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  https://etherpad.wikimedia.org/p/2025-03-20-UniTO # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes:  https://etherpad.wikimedia.org/p/2026-03-16-UniTO # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
@@ -173,14 +173,14 @@ special instructions.
   <strong>Accessibility:</strong>
   We are committed to making this workshop
   accessible to everybody. 
-{% if online == "false" %}
+<!-- {% if online == "false" %}
   The workshop organizers have checked that:
 <p>
   <ul>
     <li>The room is wheelchair / scooter accessible.</li>
     <li>Accessible restrooms are available.</li>
   </ul>
-{% endif %}
+{% endif %} -->
 </p>
 <p>We are dedicated to providing a positive and accessible learning environment for all. 
   We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
